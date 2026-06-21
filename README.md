@@ -17,9 +17,8 @@ iDetect is a python plugin for Domoticz, which allows you to detect the presence
 * Getting connected devices from Netgear Orbi using http api (as an example for adding other methods)
 
 ## (New) requirements
-* Some trackers have their own requirements. E.g. using a SSH based tracker requires 'paramiko' to be installed. The FRITZ!Box tracker needs 'fritzconnect'. If these requirements are not met you cannot use these trackers, but other trackers will still work.
+* Some trackers have their own requirements. E.g. The FRITZ!Box tracker needs 'fritzconnect'. If these requirements are not met you cannot use these trackers, but other trackers will still work.
 * Python 3.5 or newer
-* No longer needs sshpass for password based authentication (paramiko takes care of that).
 
 More information and support can be found on the Domoticz forum topic at https://www.domoticz.com/forum/viewtopic.php?f=65&t=20467.  
 
@@ -38,8 +37,8 @@ I think these names better reflect their function, since other devices than rout
 
 ## Installation
 Assumming you have allready installed pip3 and git  
-First install the required (but not standard) python modules if they ar not already installed   
-`sudo pip3 install requests paramiko`  
+First install the required (but not standard) python modules if they are not already installed   
+`sudo pip3 install requests`  
 
 Assuming domoticz is installed in /home/pi (the default on raspberry pi)  
 `cd /home/pi/domoticz/plugins`  
